@@ -7,10 +7,8 @@ This is a rewritten Haste-Client in Go which is meant to be a little utility tha
 Examples:
 
 `echo Sample Text | haste`  
-> https://haste.zneix.eu/nibazahidu
 
 `haste veryLongScript.js | xsel`
-> *copies https://haste.zneix.eu/ibadomuvaq to clipboard*
 
 `echo "Hello World" | haste message.txt - main.cpp`
 > *uploads (separetly): contents of message.txt file, standard input from echo command, contents of main.cpp file
@@ -29,7 +27,7 @@ Shows Program version and exits
 
 `-d string`
 
-Changes upload destination, can be a URL another haste server (default: https://haste.zneix.eu).  
+Changes upload destination, can be a URL another haste server (default: https://cetus.sh/paste).  
 
 `-r`
 
