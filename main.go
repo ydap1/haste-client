@@ -19,7 +19,7 @@ const (
 var (
 	printVersion = flag.Bool("v", false, "Shows program version")
 	returnRaw    = flag.Bool("r", false, "Returns link to raw content")
-	hasteURL     = flag.String("d", "https://haste.zneix.eu", "Hastebin server's URL to which data will be uploaded")
+	hasteURL     = flag.String("d", "https://cetus.sh/paste", "Hastebin server's URL to which data will be uploaded")
 
 	apiRoute   = "/documents"
 	httpClient = &http.Client{
