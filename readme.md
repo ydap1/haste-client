@@ -12,6 +12,10 @@ Examples:
 
 `echo "Hello World" | haste message.txt - main.cpp`
 > *uploads (separetly): contents of message.txt file, standard input from echo command, contents of main.cpp file
+ This can be combined with `pbcopy`, like:
+
+* mac osx: `cat file | haste | pbcopy`
+* linux: `cat file | haste | xsel`
 
 <br>
 
